@@ -157,4 +157,12 @@ body {
     width: 50%;
     padding: 2rem;
   }
+
+  .subscription > * {
+    width: 80%;
+  }
+
+  .about__text {
+    font-size: 1rem;
+  }
 }
