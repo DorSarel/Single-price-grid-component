@@ -58,6 +58,14 @@ body {
 .btn-primary {
   background-color: hsl(71, 73%, 54%);
   font-size: 1rem;
+  margin-top: 0.75rem;
+  transition: all 0.25s;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  transform: translateY(-4px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 /*
