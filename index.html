@@ -3,47 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <link
+      href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Single Price Grid Component</title>
   </head>
   <body>
-    <header class="header">
-      <h1 class="header__title">Join our community</h1>
-      <p class="header__subtitle">30-day, hassle-free money back guarantee</p>
-      <p class="header__text">
-        Gain access to our full library of tutorials along with expert code
-        reviews. Perfect for any developers who are serious about honing their
-        skills.
-      </p>
-    </header>
-
-    <main class="main">
-      <section class="subscription">
-        <h2 class="section-title">Monthly Subscription</h2>
-        <p class="subscription__price">&dollar;29 per month</p>
-        <p class="subscription__text">
-          Full access for less than &dollar;1 a day
+    <div class="container grid-container">
+      <header class="header">
+        <h1 class="header__title">Join our community</h1>
+        <p class="header__subtitle">30-day, hassle-free money back guarantee</p>
+        <p class="header__text">
+          Gain access to our full library of tutorials along with expert code
+          reviews. Perfect for any developers who are serious about honing their
+          skills.
         </p>
-        <button class="btn btn-primary">Sign Up</button>
-      </section>
+      </header>
 
-      <section class="about">
-        <h2 class="section-title">Why Us</h2>
-        <p class="subscription__text">
-          Tutorials by industry experts Peer &amp; expert code review Coding
-          exercises Access to our GitHub repos Community forum Flashcard decks
-          New videos every week
-        </p>
-      </section>
-    </main>
+      <main class="main">
+        <section class="subscription">
+          <h2 class="section-title">Monthly Subscription</h2>
+          <p class="subscription__price">&dollar;29 per month</p>
+          <p class="subscription__text">
+            Full access for less than &dollar;1 a day
+          </p>
+          <button class="btn btn-primary">Sign Up</button>
+        </section>
+
+        <section class="about">
+          <h2 class="section-title">Why Us</h2>
+          <p class="subscription__text">
+            Tutorials by industry experts Peer &amp; expert code review Coding
+            exercises Access to our GitHub repos Community forum Flashcard decks
+            New videos every week
+          </p>
+        </section>
+      </main>
+    </div>
 
     <footer class="footer">
       <p class="attribution">
